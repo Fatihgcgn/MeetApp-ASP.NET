@@ -7,7 +7,9 @@ namespace MeetApp.AddControllersWithViews
         //localhost/home
         public IActionResult Index()
         {
-            return View();
+            int saat = DateTime.Now.Hour;
+            var Greeting = saat > 12 ? "İyi Günler" : "Günaydın";
+            return View(model: Greeting);
         }
     }
 }

@@ -1,6 +1,7 @@
+@model string
 @{
     Layout = "_Layout2";
 }
-<h1 class="h4">Merhabalar</h1>
+<h1 class="h4">@Model</h1>
 <p>Toplantı katılım durumunu bildiriniz.</p>
 <a class="btn btn-sm btn-outline-primary" asp-controller="Meeting" asp-action="Apply">Başvuru Yap</a>

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\fatih\\Desktop\\MeetApp\\MeetApp.csproj": {}
+    "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\MeetApp.csproj": {}
   },
   "projects": {
-    "c:\\Users\\fatih\\Desktop\\MeetApp\\MeetApp.csproj": {
+    "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\MeetApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\fatih\\Desktop\\MeetApp\\MeetApp.csproj",
+        "projectUniqueName": "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\MeetApp.csproj",
         "projectName": "MeetApp",
-        "projectPath": "c:\\Users\\fatih\\Desktop\\MeetApp\\MeetApp.csproj",
+        "projectPath": "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\MeetApp.csproj",
         "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\fatih\\Desktop\\MeetApp\\obj\\",
+        "outputPath": "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"
