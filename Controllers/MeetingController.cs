@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
 using System.Threading.Tasks;
+using MeetApp.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 
@@ -21,7 +22,7 @@ namespace MeetApp.Controllers
             return View();
         }
         [HttpPost]
-        public IActionResult Apply(string Name,string Phone,string Email,bool WillAttend)
+        public IActionResult Apply(UserInfo model)
         {
             // Console.WriteLine(Name);
             // Console.WriteLine(Phone);
