@@ -16,6 +16,7 @@ namespace MeetApp.Controllers
         {
             return View();
         }
+
         [HttpPost]
         public IActionResult Apply(UserInfo model)
         {
@@ -23,11 +24,17 @@ namespace MeetApp.Controllers
             // Console.WriteLine(Phone);
             // Console.WriteLine(Email);
             // Console.WriteLine(WillAttend);
-
-            Repository.CreateUser(model);
-            ViewBag.UserCount = Repository.Users.Where(info=>info.WillAttend == true).Count();
-            return View("Thanks", model);
+            if (ModelState.IsValid)
+            {
+                Repository.CreateUser(model);
+                ViewBag.UserCount = Repository.Users.Where(info => info.WillAttend == true).Count();
+                return View("Thanks", model);
+            }else
+            {
+                return View(model);
+            }
         }
+
         [HttpGet]
         public IActionResult List()
         {
@@ -39,5 +46,5 @@ namespace MeetApp.Controllers
         {
             return View(Repository.GetById(id));
         }
-    }   
+    }
 }

@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\wwwroot\\Bcss\\styles.css",
+      "PackagePath": "staticwebassets\\Bcss\\styles.css"
+    },
+    {
       "Id": "C:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\wwwroot\\lib\\bootstrap\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\css\\bootstrap-grid.css"
     },
