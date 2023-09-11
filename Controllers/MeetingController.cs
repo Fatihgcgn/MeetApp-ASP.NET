@@ -12,11 +12,6 @@ namespace MeetApp.Controllers
     public class MeetingController : Controller
     {
         [HttpGet]
-        public IActionResult Index()
-        {
-            return View();
-        }
-        [HttpGet]
         public IActionResult Apply()
         {
             return View();
@@ -28,13 +23,21 @@ namespace MeetApp.Controllers
             // Console.WriteLine(Phone);
             // Console.WriteLine(Email);
             // Console.WriteLine(WillAttend);
-            return View();
+
+            Repository.CreateUser(model);
+            ViewBag.UserCount = Repository.Users.Where(info=>info.WillAttend == true).Count();
+            return View("Thanks", model);
         }
         [HttpGet]
         public IActionResult List()
         {
-            return View();
+            return View(Repository.Users);
         }
 
+        //meeting/details/1
+        public IActionResult Details(int id)
+        {
+            return View(Repository.GetById(id));
+        }
     }   
 }
