@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "c:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\MeetApp.csproj",
+      "projectUniqueName": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\MeetApp-ASP.NET\\MeetApp.csproj",
       "projectName": "MeetApp",
-      "projectPath": "c:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\MeetApp.csproj",
+      "projectPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\MeetApp-ASP.NET\\MeetApp.csproj",
       "packagesPath": "C:\\Users\\fatih\\.nuget\\packages\\",
-      "outputPath": "c:\\Users\\fatih\\Desktop\\MeetApp-ASP.NET\\obj\\",
+      "outputPath": "c:\\Users\\fatih\\Desktop\\Asp-Net-Core Dersleri\\MeetApp-ASP.NET\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "D:\\VISUAL STUDIO 2019\\VISUAL STUDIO SDK\\NuGetPackages"
